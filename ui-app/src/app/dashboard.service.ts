@@ -10,6 +10,6 @@ export class DashboardService {
 
   }
   getData() {
-    return this.http.get<any>('https://reqres.in/api/users?per_page=12');
+    return this.http.get<any>('http://localhost:3000/users');
   }
 }
